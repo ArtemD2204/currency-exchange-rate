@@ -34,10 +34,8 @@ public class ExchangeRateController {
     @Value("${tag.broke}")
     private String broke;
 
-//    @Autowired
     private ExchangeRateFeignClient exchangeRateFeignClient;
 
-//    @Autowired
     private GiphyFeignClient giphyFeignClient;
 
     @Autowired
